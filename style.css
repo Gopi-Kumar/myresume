@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;600;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  text-align: justify;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  background: #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .resume_container {
+  background: white;
+  width: 210mm;
+  height: 297mm;
+  display: flex;
+  flex-direction: column;
+}
+body .resume_container section {
+  padding: 5px 40px;
+  width: 100%;
+}
+body .resume_container section:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #321c92;
+}
+body .resume_container section:nth-child(1) .pic {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #1af1f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 50px;
+}
+body .resume_container section:nth-child(1) .pic img {
+  width: 150px;
+}
+body .resume_container section:nth-child(1) h4 {
+  color: white;
+  font-size: 30px;
+}
+body .resume_container section:nth-child(1) p {
+  color: #1af1f8;
+  font-size: 22px;
+}
+body .resume_container section:nth-child(1) .moto {
+  font-size: 16px;
+  color: white;
+}
+body .resume_container h1 {
+  padding: 0px 0px 0px 20px;
+  text-decoration: underline;
+  font-size: 20px;
+  color: #001330;
+}
+body .resume_container .contact_info {
+  background: #001330;
+  color: white;
+  padding: 10px 20px;
+}
+body .resume_container .contact_info div, body .resume_container .contact_info a {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  font-size: 13px;
+}
+body .resume_container .contact_info div i, body .resume_container .contact_info a i {
+  margin: 5px;
+}
+body .resume_container .skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body .resume_container .skills span {
+  background: #000000;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+body .resume_container .work_experiance p:nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+}
+body .resume_container .work_experiance p:nth-child(2) {
+  font-weight: normal;
+  font-size: 16px;
+}
+body .resume_container .work_experiance p:nth-child(3) {
+  font-style: italic;
+  color: gray;
+  font-weight: bold;
+}
+body .resume_container li, body .resume_container p {
+  font-size: 15px;
+  list-style-position: inside;
+}
+body .resume_container h5 {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
